@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROK</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-black text-white">
+    <div>
+        <h2 >Kalkulator Trading Post Rise of Kingdoms</h2>
+        <label for="levelTradingPost">Level Trading Post:</label>
+        <select id="levelTradingPost">
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="3">Level 3</option>
+            <option value="4">Level 4</option>
+            <option value="5">Level 5</option>
+            <option value="6">Level 6</option>
+            <option value="7">Level 7</option>
+            <option value="8">Level 8</option>
+            <option value="9">Level 9</option>
+            <option value="10">Level 10</option>
+            <option value="11">Level 11</option>
+            <option value="12">Level 12</option>
+            <option value="13">Level 13</option>
+            <option value="14">Level 14</option>
+            <option value="15">Level 15</option>
+            <option value="16">Level 16</option>
+            <option value="17">Level 17</option>
+            <option value="18">Level 18</option>
+            <option value="19">Level 19</option>
+            <option value="20">Level 20</option>
+            <option value="21">Level 21</option>
+            <option value="22">Level 22</option>
+            <option value="23">Level 23</option>
+            <option value="24">Level 24</option>
+            <option value="25">Level 25</option>
+        </select>
+
+        <label for="number"></label>
+        <div id="resource" class="">
+            <div class="flex">
+            <div class="p-4">
+                <span class="rounded px-4 py-1 bg-slate-600 text-lime-500 ">Food :</span>
+                <input type="number" id="Food" placeholder="Wajib Angka" class="bg-slate-200 text-black">
+            </div>
+            <div class="p-4">
+                <span class="rounded px-4 py-1 bg-slate-600 text-yellow-800">Wood</span>
+                <input type="number" id="Wood" placeholder="Wajib Angka" class="bg-slate-200 text-black">
+            </div>
+
+            </div>
+            <div class="flex">
+                <div class="p-4">
+                    <span class="rounded px-4 py-1 bg-slate-600 text-slate-300">Stone</span>
+                    <input type="number" id="Stone" placeholder="Wajib Angka" class="bg-slate-200 text-black">
+                </div>
+                <div class="p-4">
+                    <span class="rounded px-4 py-1 bg-slate-600 text-amber-300">Gold</span>
+                    <input type="number" id="Gold" placeholder="Wajib Angka "class="bg-slate-200 text-black">
+                </div>
+            </div>
+        </div>
+
+        
+        <button onclick="hitungRSS()">Hitung</button>
+
+        <div id="hasilJumlah">
+            Food <span id="hasilFood"></span>
+        </div>
+        <div id="hasilJumlah">
+            Wood <span id="hasilWood"></span>
+        </div>
+        <div id="hasilJumlah">
+            Stone <span id="hasilStone"></span>
+        </div>
+        <div id="hasilJumlah">
+            Gold <span id="hasilGold"></span>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
