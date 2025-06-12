@@ -4,79 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROK</title>
+    <link rel="shortcut icon" href="img/Rise of Kingdoms_万国觉醒 Hero-贞德, Magic Vision 魔眼.jpeg" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-black text-white">
-    <div>
-        <h2 >Kalkulator Trading Post Rise of Kingdoms</h2>
-        <label for="levelTradingPost">Level Trading Post:</label>
-        <select id="levelTradingPost">
-            <option value="1">Level 1</option>
-            <option value="2">Level 2</option>
-            <option value="3">Level 3</option>
-            <option value="4">Level 4</option>
-            <option value="5">Level 5</option>
-            <option value="6">Level 6</option>
-            <option value="7">Level 7</option>
-            <option value="8">Level 8</option>
-            <option value="9">Level 9</option>
-            <option value="10">Level 10</option>
-            <option value="11">Level 11</option>
-            <option value="12">Level 12</option>
-            <option value="13">Level 13</option>
-            <option value="14">Level 14</option>
-            <option value="15">Level 15</option>
-            <option value="16">Level 16</option>
-            <option value="17">Level 17</option>
-            <option value="18">Level 18</option>
-            <option value="19">Level 19</option>
-            <option value="20">Level 20</option>
-            <option value="21">Level 21</option>
-            <option value="22">Level 22</option>
-            <option value="23">Level 23</option>
-            <option value="24">Level 24</option>
-            <option value="25">Level 25</option>
-        </select>
+<body class="bg-black text-white flex items-center justify-center overflow-hidden" >
+    <img src="../img/download (8).jpeg" class="absolute w-screen  brightness-75 saturate-25 hue-rotate-15 grayscale-50 contrast-125 blur-xs -z-50 " alt="">
+    <div class="p-4 max-w-lg mx-auto bg-gray-800/30 my-7 absoulute  backdrop-blur-md rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold mb-4 text-center">Kalkulator Trading Post Rise of Kingdoms</h2>
+        <div class="mb-2">
+            <label for="levelTradingPost" class="block text-lg mb-1">Level Trading Post:</label>
+            <select id="levelTradingPost" class="w-full p-2 rounded bg-slate-700 text-white">
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+                <option value="4">Level 4</option>
+                <option value="5">Level 5</option>
+                <option value="6">Level 6</option>
+                <option value="7">Level 7</option>
+                <option value="8">Level 8</option>
+                <option value="9">Level 9</option>
+                <option value="10">Level 10</option>
+                <option value="11">Level 11</option>
+                <option value="12">Level 12</option>
+                <option value="13">Level 13</option>
+                <option value="14">Level 14</option>
+                <option value="15">Level 15</option>
+                <option value="16">Level 16</option>
+                <option value="17">Level 17</option>
+                <option value="18">Level 18</option>
+                <option value="19">Level 19</option>
+                <option value="20">Level 20</option>
+                <option value="21">Level 21</option>
+                <option value="22">Level 22</option>
+                <option value="23">Level 23</option>
+                <option value="24">Level 24</option>
+                <option value="25">Level 25</option>
+            </select>
+        </div>
 
-        <label for="number"></label>
-        <div id="resource" class="">
-            <div class="flex">
-            <div class="p-4">
-                <span class="rounded px-4 py-1 bg-slate-600 text-lime-500 ">Food :</span>
-                <input type="number" id="Food" placeholder="Wajib Angka" class="bg-slate-200 text-black">
-            </div>
-            <div class="p-4">
-                <span class="rounded px-4 py-1 bg-slate-600 text-yellow-800">Wood</span>
-                <input type="number" id="Wood" placeholder="Wajib Angka" class="bg-slate-200 text-black">
-            </div>
-
-            </div>
-            <div class="flex">
-                <div class="p-4">
-                    <span class="rounded px-4 py-1 bg-slate-600 text-slate-300">Stone</span>
-                    <input type="number" id="Stone" placeholder="Wajib Angka" class="bg-slate-200 text-black">
+        <div id="resource" >
+            <div class="flex flex-wrap -mx-2">
+                <div class="p-2 w-1/2">
+                    <span class="block rounded px-4 py-1 bg-slate-600 text-lime-500 mb-1 flex">Food <img src="../img/download-removebg-preview.png" alt="Food" class="w-6 ml-1"></span>
+                    <input type="number" id="Food" placeholder="Masukan Angka" class="w-full p-2 rounded bg-slate-200 text-black">
                 </div>
-                <div class="p-4">
-                    <span class="rounded px-4 py-1 bg-slate-600 text-amber-300">Gold</span>
-                    <input type="number" id="Gold" placeholder="Wajib Angka "class="bg-slate-200 text-black">
+                <div class="p-2 w-1/2">
+                    <span class="block rounded px-4 py-1 bg-slate-600 text-yellow-800 mb-1 flex">Wood <img src="../img/Item_Wood-removebg-preview.png" alt="Food" class="w-6 ml-1"></span>
+                    <input type="number" id="Wood" placeholder="Masukan Angka" class="w-full p-2 rounded bg-slate-200 text-black">
                 </div>
             </div>
+            <div class="flex flex-wrap -mx-2 ">
+                <div class="p-2 w-1/2">
+                    <span class="block rounded px-4 py-1 bg-slate-600 text-slate-300 mb-1 flex">Stone <img src="../img/Item_Stone-removebg-preview.png" alt="Food" class="w-6 ml-1"></span>
+                    <input type="number" id="Stone" placeholder="Masukan Angka" class="w-full p-2 rounded bg-slate-200 text-black">
+                </div>
+                <div class="p-2 w-1/2">
+                    <span class="block rounded px-4 py-1 bg-slate-600 text-amber-300 mb-1 flex">Gold <img src="../img/Item_Gold-removebg-preview.png" alt="Food" class="w-6 ml-1"></span>
+                    <input type="number" id="Gold" placeholder="Masukan Angka" class="w-full p-2 rounded bg-slate-200 text-black">
+                </div>
+            </div>
         </div>
 
-        
-        <button onclick="hitungRSS()">Hitung</button>
+        <button onclick="hitungRSS()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">Hitung</button>
 
-        <div id="hasilJumlah">
-            Food <span id="hasilFood"></span>
-        </div>
-        <div id="hasilJumlah">
-            Wood <span id="hasilWood"></span>
-        </div>
-        <div id="hasilJumlah">
-            Stone <span id="hasilStone"></span>
-        </div>
-        <div id="hasilJumlah">
-            Gold <span id="hasilGold"></span>
+        <div class="space-y-2">
+            <div class="flex justify-between items-center bg-gray-700 p-2 rounded">
+                <span class="flex text-lime-500">Food <img src="../img/download-removebg-preview.png" alt="Food" class="w-6"> :</span> <span id="hasilFood" class="font-semibold"></span>
+            </div>
+            <div class="flex justify-between items-center bg-gray-700 p-2 rounded">
+                <span class="flex text-yellow-800">Wood<img src="../img/Item_Wood-removebg-preview.png" alt="Food" class="w-6"> :</span> <span id="hasilWood" class="font-semibold"></span>
+            </div>
+            <div class="flex justify-between items-center bg-gray-700 p-2 rounded">
+                <span class="flex text-slate-300">Stone<img src="../img/Item_Stone-removebg-preview.png" alt="Food" class="w-6"> :</span> <span id="hasilStone" class="font-semibold"></span>
+            </div>
+            <div class="flex justify-between items-center bg-gray-700 p-2 rounded">
+                <span class="flex text-amber-300">Gold<img src="../img/Item_Gold-removebg-preview.png" alt="Food" class="w-6"> :</span> <span id="hasilGold" class="font-semibold"></span>
+            </div>
         </div>
     </div>
 <script src="index.js"></script>
